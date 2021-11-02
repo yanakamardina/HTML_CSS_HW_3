@@ -1,0 +1,83 @@
+.element {
+   width: 350px;
+   height: 220px;
+   padding: 15px 10px 20px 10px;
+   margin: 0px 0px 30px 0px;
+   background-color: green;
+   border: 2px dashed red;
+}
+
+.squares {
+    position: relative;
+    height: 450px;
+    width: 450px;
+    margin-bottom: 50px;
+}
+
+.squares div {
+	width: 200px;
+   	height: 200px;
+   	position: absolute;
+}
+
+.pink {
+   background-color: rgb(255, 123, 100);
+   z-index: 2;
+}
+
+.blue {
+    background-color: rgb(42, 170, 255);
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.green {
+    background-color: rgb(0, 255, 149);
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+}
+
+.dude {
+    background: rgb(0, 255, 34);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.dude div {
+    position: absolute;
+    background-color: white;
+}
+
+.circle-1, .circle-2 {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    top: 15%;
+}
+.circle-1 {
+    left: 20%;
+}
+
+.circle-2 {
+    right: 20%;
+}
+
+.square-1 {
+    width: 15%;
+    height: 15%;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.rectangle {
+    width: 50%;
+    height: 5%;
+    top: 70%;
+    left: 50%;
+    transform:translateX(-50%);
+}

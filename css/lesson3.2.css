@@ -1,0 +1,20 @@
+header {
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding: 1%;
+    margin: 0%;
+    z-index: 5;
+    background-color: rgb(169, 223, 82);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+div {
+    border: 2px solid rgb(169, 223, 82);
+    margin: 3% 2%;
+    padding: 2% 1%;
+}
